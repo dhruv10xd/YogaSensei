@@ -1,5 +1,5 @@
 # YogaSensei
-[Youtube Link]([url](https://www.youtube.com/watch?v=oSZjsI99uf4))
+[YouTube Link for working prototype](https://www.youtube.com/watch?v=oSZjsI99uf4)
  
 YogaSensei is a revolutionary web application designed to enhance the yoga practice experience using computer vision, NLP, and machine learning (deep + transfer). Its primary aim is to provide real-time feedback and corrections to yoga practitioners, helping them perfect their poses and achieve a deeper understanding of yoga asanas, along with practice and test modes, offering tailored suggestions, personalized recommendations, meditation and health tips, dashboard to view progress, a leaderboard feature to foster healthy competition and user community to interact and share their progress with friends and family.
 Technical Aspects:
@@ -12,7 +12,7 @@ YogaSensei offers two distinct modes to cater to users at different stages of th
 - **Test Mode**: In this mode, users can record or upload videos of their yoga sessions. The application then analyzes each frame, classifying them as correct, incorrect, partially correct, or none. Users receive detailed scores and feedback.
 - **Machine Learning Models**: YogaSensei employs a combination of Convolutional Neural Networks (CNNs) for image analysis and fine-tuned pre-trained models (e.g., Xception, MobileNet) for pose classification.
 - **Scoring Algorithm**: The application's scoring algorithm calculates scores based on the percentage of correct frames, partially correct frames, and incorrect frames in the video. It provides users with a detailed breakdown of their performance.
-- **[Extensive Dataset Development (32000+ images and videos) ]([url](https://drive.google.com/drive/folders/1F7YfuSDeu9NVW50MX1XWolbK0f8sKBR6))**: YogaSensei's accuracy and effectiveness hinge on the quality and diversity of its dataset. To train its machine learning models effectively, YogaSensei undertook the creation of an extensive dataset, encompassing thousands of images and videos.
+- **[Extensive Dataset Development (32000+ images and videos) ](https://drive.google.com/drive/folders/1F7YfuSDeu9NVW50MX1XWolbK0f8sKBR6)**: YogaSensei's accuracy and effectiveness hinge on the quality and diversity of its dataset. To train its machine learning models effectively, YogaSensei undertook the creation of an extensive dataset, encompassing thousands of images and videos.
 - **Labeling and Classification**: The dataset was divided into two parts: labeled and unlabeled. Unlabeled videos had their keypoints extracted and 3D coordinates stored, which were used to generate labeled videos with lines connecting keypoints. Classes included correct, incorrect, partially correct, and none, with further subdivisions.
 YogaSensei employs a variety of machine learning models to classify yoga poses accurately. These models are designed to handle the intricacies of human body movement and alignment.
 - **CNNs (Convolutional Neural Networks)**: CNNs are used for image analysis, enabling YogaSensei to identify and classify yoga poses based on image data.
