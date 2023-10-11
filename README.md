@@ -23,8 +23,10 @@ To achieve high accuracy while preventing overfitting, YogaSensei employs a rang
 - **Transfer Learning**: Pre-trained models serve as a starting point, allowing YogaSensei to leverage features learned from large datasets on similar tasks. Fine-tuning adapts these models for pose classification.
  
 YogaSensei takes model evaluation seriously and employs a comprehensive set of performance metrics to assess the quality of its machine learning models. The selection process is guided by a weighted evaluation approach and the TOPSIS algorithm.
+ 
 **Parameters** - Accuracy, Precision, Recall,F1 Score, Average Inference Time per Image, Average Specificity, F2 Score, Inference Speed, Model Complexity
+ 
 - **Ensemble Methods**: Ensemble methods, such as combining predictions from multiple top-performing models, are considered to further enhance accuracy and reliability.
-- Regular Model Updates: The application maintains a commitment to continuous model improvement, incorporating user feedback and expanding the dataset to adapt to changing needs.
+- **Regular Model Updates**: The application maintains a commitment to continuous model improvement, incorporating user feedback and expanding the dataset to adapt to changing needs.
 All of the above aspects have been accomplished and currently we are working on expanding the variations of each asana, introducing more asanas, and building the user community feature.
 Thus, we firmly believe that YogaSensei can play a Crucial role in the engagement of common people and masses to perform yoga anywhere and everywhere conveniently through mobile devices and holds a strong entrepreneurial potential. 
