@@ -1,5 +1,6 @@
 # YogaSensei
 [Youtube Link]([url](https://www.youtube.com/watch?v=oSZjsI99uf4))
+ 
 YogaSensei is a revolutionary web application designed to enhance the yoga practice experience using computer vision, NLP, and machine learning (deep + transfer). Its primary aim is to provide real-time feedback and corrections to yoga practitioners, helping them perfect their poses and achieve a deeper understanding of yoga asanas, along with practice and test modes, offering tailored suggestions, personalized recommendations, meditation and health tips, dashboard to view progress, a leaderboard feature to foster healthy competition and user community to interact and share their progress with friends and family.
 Technical Aspects:
 - **Web Application**: YogaSensei is accessible through a web browser, making it convenient and platform-independent.
